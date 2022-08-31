@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="https://www.thymeleaf.org/">
+<head>
+    <meta charset="UTF-8">
+    <title>Quiz</title>
+</head>
+<body>
+
+    <h1>Quiz</h1>
+
+    <p>Good luck!</p>
+
+    <form method="POST">
+
+        <p th:text="${questions[0].q}"></p>
+        <input name="q1" type="text">
+
+        <button>Submit</button>
+    </form>
+
+</body>
+</html>

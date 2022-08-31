@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="https://www.thymeleaf.org/">
+<head>
+    <meta charset="UTF-8">
+    <title>Quiz Results</title>
+</head>
+<body>
+
+    <h1 th:if="${isCorrect}">Correct! 😁</h1>
+
+    <h1 th:if="${!isCorrect}">Incorrect! 🙁</h1>
+
+</body>
+</html>
